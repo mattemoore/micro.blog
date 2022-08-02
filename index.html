@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>Thoughts on Shipping Software and Managing Humans</title>
+
+  
+  
+  <meta name="description" content="Follow &lt;a href=&#34;https://micro.blog/mattemoore&#34;&gt;@mattemoore on Micro.blog&lt;/a&gt;." />
+  <meta name="author" content="Matthew Moore" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://mattemoore.micro.blog/app.min.css" />
+  <link rel="stylesheet" href="/custom.css?1659464245">
+
+  
+
+  
+  <link rel="preload" as="image" href="https://mattemoore.micro.blog/theme.png" />
+
+  
+
+  
+  <link rel="icon" href="https://mattemoore.micro.blog/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://mattemoore.micro.blog/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.91.2" />
+
+  
+  
+  <link
+    rel="alternate"
+    type="application/json"
+    href="https://mattemoore.micro.blog/feed.json"
+    title="Thoughts on Shipping Software and Managing Humans"
+  />
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Thoughts on Shipping Software and Managing Humans" />
+<meta property="og:description" content="Follow &lt;a href=&#34;https://micro.blog/mattemoore&#34;&gt;@mattemoore on Micro.blog&lt;/a&gt;." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://mattemoore.micro.blog/" />
+
+
+  
+  <meta itemprop="name" content="Thoughts on Shipping Software and Managing Humans">
+<meta itemprop="description" content="Follow &lt;a href=&#34;https://micro.blog/mattemoore&#34;&gt;@mattemoore on Micro.blog&lt;/a&gt;.">
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Thoughts on Shipping Software and Managing Humans"/>
+<meta name="twitter:description" content="Follow &lt;a href=&#34;https://micro.blog/mattemoore&#34;&gt;@mattemoore on Micro.blog&lt;/a&gt;."/>
+
+  
+  
+  
+  <link rel="me" href="https://micro.blog/mattemoore" />
+
+
+
+
+<link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth" />
+<link rel="token_endpoint" href="https://micro.blog/indieauth/token" />
+<link rel="micropub" href="https://micro.blog/micropub" />
+<link rel="microsub" href="https://micro.blog/microsub" />
+<link rel="webmention" href="https://micro.blog/webmention" />
+<link rel="subscribe" href="https://micro.blog/users/follow" />
+
+
+
+
+</head>
+
+
+  <body class="not-ready" data-menu="true">
+    <header class="header">
+  
+  <h1 class="logo">
+    <a class="site-name" href="https://mattemoore.micro.blog/">Thoughts on Shipping Software and Managing Humans</a><a class="btn-dark"></a>
+  </h1>
+  
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+
+  
+  
+  
+  <nav class="menu">
+    
+			
+				<a class="" role="presentation" href="/about/">About</a>
+			
+		
+			
+				<a class="" role="presentation" href="/archive/">Archive</a>
+			
+		
+			
+				<a class="" role="presentation" href="/photos/">Photos</a>
+			
+		
+  </nav>
+  
+
+  
+</header>
+
+
+    <main class="main">
+<div class="h-feed">
+
+	
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://mattemoore.micro.blog/2022/07/21/i-am-not.html">I am not a super technical leader.  How do I know that my team is on the right track?</a></h1>
+		
+
+		<a href="https://mattemoore.micro.blog/2022/07/21/i-am-not.html" class="u-url"><time class="dt-published" datetime="2022-07-21 09:43:43 -0400">Jul 21, 2022</time></a>
+
+		<div class="e-content">
+			 <p>Even if you are not the most technical leader you can point your team in the right direction.</p>
+<p>Which of these two environments does your team operate in?</p>
+<p><a href="https://martinfowler.com/articles/developer-effectiveness.html#DayInTheLifeInAHighlyEffectiveEnvironment">martinfowler.com/articles/&hellip;</a> (slightly reworded)</p>
+<ol>
+<li>team comes into work in the morning and checks the applciation monitoring dashboard&hellip;knows based on data that the application is running green&hellip;this means they can work on fun stuff instead of fixing whatever broke last night</li>
+<li>team can pull down the latest code, make an incremental code change that is quickly validated via unit tests, end-to-end tests, load tests, accessibility tests, security tests etc.</li>
+<li>team can focus can work on value-add items uninterrupted for most of the day</li>
+<li>team goes home happy, excited to come back in the morning add more value to the product</li>
+</ol>
+<p><a href="https://martinfowler.com/articles/developer-effectiveness.html#DayInTheLifeInALowEffectiveEnvironment">martinfowler.com/articles/&hellip;</a> (slightly reworded)</p>
+<ol>
+<li>team comes into work and begins the day immediately dealing with a number of alerts for problems in production</li>
+<li>team is forced to check multiple logging and monitoring systems mixed with their assumptions to find the source of error as there are no aggregated logs across systems</li>
+<li>team works with PM during (misused) standup and assumes that the alerts are false positives</li>
+<li>team cannot work uninterrupted for a few hours as the day has many status meetings</li>
+<li>team goes home unhappy as they were not able to improve the product today and fear what is awaiting them when they log in tomorrow morning</li>
+</ol>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://mattemoore.micro.blog/2022/07/14/dont-forget-to.html">Operatability is something that must be built into v1</a></h1>
+		
+
+		<a href="https://mattemoore.micro.blog/2022/07/14/dont-forget-to.html" class="u-url"><time class="dt-published" datetime="2022-07-14 12:20:10 -0400">Jul 14, 2022</time></a>
+
+		<div class="e-content">
+			 <p>Launching a new system is great and should be celebrated but this is also when new concerns start.</p>
+<p>If you do not know the answers to the following questions before you launch you are at risk:</p>
+<ol>
+<li>Do we know exactly how far our system can scale?</li>
+</ol>
+<ul>
+<li>How many users can the system handle at the same time before weird behaviours start to occur?</li>
+<li>How many records can we have in the database before weird behaviours start to occur?</li>
+</ul>
+<ol start="2">
+<li>Do we know what these weird behaviours are in advance so we can separate scaling issues from bugs?</li>
+<li>Will we know that weird behaviours have started before our users tell us?</li>
+<li>Do we have an operations dashboard where we can look at usage metrics, logs and run adhoc diagnostics so we can trace weird behaviours?</li>
+<li>In summary, will we be able to determe root causes of operational issues using data or will we be using our assumptions?</li>
+</ol>
+<p>If you do not have these before your launch make sure you get these done before v2 and make sure you have them in place before you launch v1 of your next system.</p>
+<p>PS. If you do not have #4 you can not validate the assumptions you made while building v1 and thus cannot know if you built the wrong thing.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://mattemoore.micro.blog/2022/07/14/competency-is-the.html">Competency is the most important.  Team fit comes next.  </a></h1>
+		
+
+		<a href="https://mattemoore.micro.blog/2022/07/14/competency-is-the.html" class="u-url"><time class="dt-published" datetime="2022-07-14 11:28:14 -0400">Jul 14, 2022</time></a>
+
+		<div class="e-content">
+			 <p>If you are a manager and cannot honestly determine the competency of a developer on your own i.e not get snowed, ask a developer you know for sure to be competent and have that developer review a small piece of the candidate&rsquo;s code while you listen in.</p>
+<p>This enables you to:</p>
+<ol>
+<li>Confirm the competency of the candidate</li>
+<li>Confirm the candidate can play nice with others when challenged</li>
+</ol>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://mattemoore.micro.blog/2022/07/14/appeal-to-your.html">Appeal to your users&#39; emotions during the demo.</a></h1>
+		
+
+		<a href="https://mattemoore.micro.blog/2022/07/14/appeal-to-your.html" class="u-url"><time class="dt-published" datetime="2022-07-14 10:15:19 -0400">Jul 14, 2022</time></a>
+
+		<div class="e-content">
+			 <p>Which one of these do you think will generate more engagement with your users?</p>
+<ol>
+<li>&ldquo;When you click this button it will show a diff of changes that you can look at before submitting the draft for approval.&rdquo;</li>
+<li>&ldquo;We have built the ability for you to check your team&rsquo;s work before forwarding it to your boss for review.  With this piece of magic you will easily and delightfully catch mistakes before your boss sees them.&rdquo;</li>
+</ol>
+
+		</div>
+	  </div>
+	
+
+</div>
+</main>
+
+    <footer class="footer">
+  <p>&copy; 2022 <a href="https://mattemoore.micro.blog/">Matthew Moore</a></p>
+  <p>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</p>
+  <p>Hosted by <a href="https://micro.blog/" rel="noopener" target="_blank">Micro.blog</a>
+  </p>
+</footer>
+
+    
+
+    
+  </body>
+</html>
